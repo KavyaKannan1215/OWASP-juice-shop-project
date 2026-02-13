@@ -67,7 +67,7 @@ Login page before SQL injection
 ![SQL Login Page](https://github.com/KavyaKannan1215/OWASP-juice-shop-project/blob/main/media/SQLi_01_Login_Page.png.png)
 
 SQL payload entered in login form  
-![SQL Payload Entered](https://github.com/KavyaKannan1215/OWASP-juice-shop-project/blob/main/media/SQLi_02_Payload_Entered.png.png)
+![SQL Payload Entered](https://github.com/KavyaKannan1215/OWASP-juice-shop-project/blob/main/media/SQLi_02_Payload_Entered.png)
 
 Authentication bypass successful  
 ![SQL Login Bypass](https://github.com/KavyaKannan1215/OWASP-juice-shop-project/blob/main/media/SQLi_03_Login_Bypass_Success.png)
