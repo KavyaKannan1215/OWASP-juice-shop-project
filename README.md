@@ -64,16 +64,16 @@ Unauthorized access to application accounts.
 **Proof of Concept:**
 
 Login page before SQL injection  
-![SQL Login Page](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/SQLi_01_Login_Page.png.png)
+![SQL Login Page]()
 
 SQL payload entered in login form  
-![SQL Payload Entered](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/SQLi_02_Payload_Entered.png)
+![SQL Payload Entered]()
 
 Authentication bypass successful  
-![SQL Login Bypass](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/SQLi_03_Login_Bypass_Success.png)
+![SQL Login Bypass]()
 
 Access granted to application dashboard  
-![SQL Access Granted](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/SQLi_04_Access_Granted.png)
+![SQL Access Granted]()
 
 
 **Recommended Fix:**
@@ -103,7 +103,7 @@ JavaScript alert popup executed successfully.
 Attackers can execute malicious scripts in user browsers.
 
 **Proof of Concept:**  
-![XSS Popup](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/xss_02.png)
+![XSS Popup](https:)
 
 **Recommended Fix:**
 - Sanitize and validate all user input before rendering.
@@ -132,7 +132,7 @@ Browser executed script via client-side processing.
 Client-side script manipulation without server interaction.
 
 **Proof of Concept:**  
-![DOM XSS](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/DOM_XSS.png)
+![DOM XSS](https:)
 
 **Recommended Fix:**
 - Avoid inserting untrusted data into the DOM using JavaScript.
@@ -156,7 +156,7 @@ Administrative panel became accessible.
 Unauthorized users can access sensitive management features.
 
 **Proof of Concept:**  
-![Admin Access](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/Broken_access.png)
+![Admin Access](https:)
 
 **Recommended Fix:**
 - Enforce server-side authorization checks for all restricted endpoints.
@@ -180,7 +180,7 @@ Hidden directory `/ftp` discovered.
 Exposure of internal directories and potential sensitive data.
 
 **Proof of Concept:**  
-![Robots File](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/sensitive_dataexposure.png)
+![Robots File](https:)
 
 **Recommended Fix:**
 - Do not expose sensitive paths in configuration files.
@@ -205,7 +205,7 @@ ID manipulation attempt unsuccessful in this case.
 
 **Proof of Concept — Unauthorized Request (No Authorization Header):**
 
-![IDOR Unauthorized Request](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/IDOR.png)
+![IDOR Unauthorized Request](https:)
 
 **Recommended Fix:**
 - Validate user authorization before granting access to resources.
@@ -229,7 +229,7 @@ Multiple internal files were publicly accessible.
 Information disclosure and exposure of sensitive data.
 
 **Proof of Concept:**  
-![FTP Files](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/security_misconfiguration.png)
+![FTP Files](https:)
 
 **Recommended Fix:**
 - Disable public access to internal directories.
@@ -256,10 +256,10 @@ Application uses token-based authentication which reduces CSRF risk.
 **Proof of Concept:**
 
 Full browser window showing POST request in Network tab  
-![CSRF POST Request](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/csrf_01.png)
+![CSRF POST Request]()
 
 Network tab highlighting Authorization Bearer JWT token  
-![Authorization JWT Token](https://github.com/KAVYAKANNAN12/OWASP-juice-shop-project/raw/main/images/csrf_02.png)
+![Authorization JWT Token]()
 
 **Recommended Fix:**
 - Continue using token-based authentication.
